@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    padding: 20px;
+}
+
+#container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#nav {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    height: 40px;
+    background-color: grey;
+}
+
+.menu ul {
+    text-align: right;
+}
+
+.menu ul li {
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    padding: 10px;
+    text-align: right;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.menu ul li a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: yellow;
+}
+
+#main {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    /*background-color: aqua;*/
+}
+
+.bloque {
+    padding: 0px 0px 30px 0px;
+}
+
+.bloque img {
+    display: block;
+}
